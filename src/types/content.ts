@@ -21,3 +21,18 @@ export interface Step {
   title: string
   description: string
 }
+
+// Feature card for Solutions section
+export interface FeatureCard {
+  id: string
+  title: string
+  description: string
+  icon: string // Lucide icon name (e.g., "Bot", "Workflow", "Plug")
+  isHero?: boolean // If true, card gets enhanced hover effects
+}
+
+// Integration platform for logo display
+export interface Integration {
+  name: string
+  logo: string // Path to SVG icon (e.g., "/icons/whatsapp.svg")
+}
