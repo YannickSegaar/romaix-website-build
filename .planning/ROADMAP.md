@@ -33,12 +33,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Developer can wrap any component with FadeIn or SlideIn to add scroll-triggered animations
   4. Website displays correctly on mobile (375px), tablet (768px), and desktop (1440px) viewports
   5. Animation approach validated (enter-only animations work with App Router)
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
-- [ ] 01-03: TBD
+- [ ] 01-01-PLAN.md — Initialize Next.js 15 project with TypeScript, Tailwind, Framer Motion
+- [ ] 01-02-PLAN.md — Set up shadcn/ui with brand color theming (OKLCH)
+- [ ] 01-03-PLAN.md — Create Framer Motion animation wrappers (FadeIn, SlideIn, Stagger)
+- [ ] 01-04-PLAN.md — Create responsive Header, Footer, and root layout
 
 ### Phase 2: Homepage Core (Table Stakes)
 **Goal**: Deliver complete homepage with clear value proposition, social proof, and conversion paths
@@ -51,12 +52,13 @@ Plans:
   4. Visitor can view 3 detailed case studies with quantified results (client names, metrics, industry)
   5. Visitor sees 3-4 step "How It Works" process explaining engagement model
   6. Visitor can expand/collapse FAQ accordion to find answers to common questions
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+- [ ] 02-01-PLAN.md — Install Accordion, add marquee CSS, create data files and types
+- [ ] 02-02-PLAN.md — Create Hero and Social Proof sections
+- [ ] 02-03-PLAN.md — Create Case Studies and How It Works sections
+- [ ] 02-04-PLAN.md — Create FAQ section and wire complete homepage
 
 ### Phase 3: Lead Capture & Forms
 **Goal**: Enable visitor-to-lead conversion through functional, validated forms with email notifications
@@ -166,8 +168,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Setup | 0/TBD | Not started | - |
-| 2. Homepage Core (Table Stakes) | 0/TBD | Not started | - |
+| 1. Foundation & Setup | 0/4 | Planned | - |
+| 2. Homepage Core (Table Stakes) | 0/4 | Planned | - |
 | 3. Lead Capture & Forms | 0/TBD | Not started | - |
 | 4. Animated Feature Cards | 0/TBD | Not started | - |
 | 5. Content Pages | 0/TBD | Not started | - |
