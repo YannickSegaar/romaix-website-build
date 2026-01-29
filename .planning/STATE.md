@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 2 of 8 (Homepage Core)
-Plan: 2 of 4 in current phase
+Plan: 3 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-29 - Completed 02-02-PLAN.md (Hero & Social Proof sections)
+Last activity: 2026-01-29 - Completed 02-03-PLAN.md (Case Studies & How It Works sections)
 
-Progress: [█████░░░░░] ~50% (6 of ~12 total plans estimated)
+Progress: [██████░░░░] ~58% (7 of ~12 total plans estimated)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
+- Total plans completed: 7
 - Average duration: 2.3 min
-- Total execution time: 0.23 hours
+- Total execution time: 0.27 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation-setup | 4 | 11 min | 2.75 min |
-| 02-homepage-core | 2 | 3 min | 1.5 min |
+| 02-homepage-core | 3 | 5 min | 1.7 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (3 min), 01-04 (3 min), 02-01 (2 min), 02-02 (1 min)
+- Last 5 plans: 01-04 (3 min), 02-01 (2 min), 02-02 (1 min), 02-03 (2 min)
 - Trend: Consistent velocity
 
 ## Accumulated Context
@@ -59,6 +59,9 @@ Recent decisions affecting current work:
 - **Section components as Server Components:** Hero and SocialProof use RSC with FadeIn wrapper for animations (02-02)
 - **Sections barrel export pattern:** @/components/sections for clean imports of section components (02-02)
 - **Placeholder logo pattern:** Div elements with initials ready for real SVG replacement (02-02)
+- **Metric-first case study cards:** Quantified results displayed largest (4xl-5xl) to lead with value (02-03)
+- **Low-opacity step numbers as visual anchors:** text-primary/20 guides eye without overwhelming content (02-03)
+- **Background separation for HowItWorks:** bg-muted/30 creates visual distinction between sections (02-03)
 
 ### Pending Todos
 
@@ -79,10 +82,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-29 17:49 UTC
-Stopped at: Completed 02-02-PLAN.md - Hero and Social Proof sections ready for homepage
+Last session: 2026-01-29 17:50 UTC
+Stopped at: Completed 02-03-PLAN.md - Case Studies and How It Works sections ready for homepage
 Resume file: None
 
 ---
 *State initialized: 2026-01-29*
-*Last updated: 2026-01-29 17:49*
+*Last updated: 2026-01-29 17:50*
