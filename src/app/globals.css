@@ -45,6 +45,23 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
