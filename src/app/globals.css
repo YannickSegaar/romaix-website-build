@@ -139,3 +139,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+@utility container {
+  margin-inline: auto;
+  max-width: theme(--breakpoint-2xl);
+}

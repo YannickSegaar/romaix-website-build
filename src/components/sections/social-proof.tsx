@@ -12,7 +12,7 @@ const logos = [
 export function SocialProof() {
   return (
     <section className="py-12 overflow-hidden bg-muted/30">
-      <div className="text-center mb-8">
+      <div className="container px-4 md:px-6 text-center mb-8">
         <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">
           Trusted by leading travel businesses
         </p>
