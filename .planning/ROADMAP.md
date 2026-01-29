@@ -71,11 +71,13 @@ Plans:
   4. Form displays validation errors immediately for invalid inputs (email format, required fields)
   5. RomAIx team receives email notification within 60 seconds of form submission with lead details
   6. Forms reject bot submissions (server-side validation prevents spam)
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md — Install form dependencies, create Zod schemas, add shadcn/ui form components
+- [ ] 03-02-PLAN.md — Create Resend email client, templates, contact Server Action and form
+- [ ] 03-03-PLAN.md — Create assessment and demo Server Actions and form components
+- [ ] 03-04-PLAN.md — Create Free Assessment CTA and Contact sections, wire into homepage
 
 ### Phase 4: Animated Feature Cards (Differentiator)
 **Goal**: Differentiate from competitors with animated cards showing AI agents and workflows in action
@@ -170,7 +172,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 |-------|----------------|--------|-----------|
 | 1. Foundation & Setup | 4/4 | Complete | 2026-01-29 |
 | 2. Homepage Core (Table Stakes) | 1/4 | In progress | - |
-| 3. Lead Capture & Forms | 0/TBD | Not started | - |
+| 3. Lead Capture & Forms | 0/4 | Not started | - |
 | 4. Animated Feature Cards | 0/TBD | Not started | - |
 | 5. Content Pages | 0/TBD | Not started | - |
 | 6. Blog Implementation | 0/TBD | Not started | - |
@@ -179,4 +181,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 ---
 *Roadmap created: 2026-01-29*
-*Last updated: 2026-01-29 17:44*
+*Last updated: 2026-01-29*
