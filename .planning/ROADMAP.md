@@ -90,11 +90,12 @@ Plans:
   3. Integration logos (WhatsApp, Instagram, Facebook, etc.) are visible within Solutions section
   4. Animations perform smoothly (60fps) on mid-range devices (tested on throttled CPU)
   5. Cards reveal with staggered scroll-triggered animations as visitor scrolls to Solutions section
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md — Add FeatureCard/Integration types, solutions data, HoverCard component
+- [ ] 04-02-PLAN.md — Create Solutions section with feature cards and integration logos
+- [ ] 04-03-PLAN.md — Wire Solutions to homepage, performance verification checkpoint
 
 ### Phase 5: Content Pages
 **Goal**: Complete table stakes pages establishing company credibility and legal compliance
@@ -174,7 +175,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 1. Foundation & Setup | 4/4 | Complete | 2026-01-29 |
 | 2. Homepage Core (Table Stakes) | 1/4 | In progress | - |
 | 3. Lead Capture & Forms | 5/5 | Complete | 2026-01-29 |
-| 4. Animated Feature Cards | 0/TBD | Not started | - |
+| 4. Animated Feature Cards | 0/3 | Not started | - |
 | 5. Content Pages | 0/TBD | Not started | - |
 | 6. Blog Implementation | 0/TBD | Not started | - |
 | 7. Case Studies Detail Pages | 0/TBD | Not started | - |
