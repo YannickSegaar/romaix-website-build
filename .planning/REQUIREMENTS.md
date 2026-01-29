@@ -118,8 +118,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-01 | Phase 2 | Pending |
 | HOME-02 | Phase 2 | Pending |
 | HOME-03 | Phase 2 | Pending |
-| HOME-04 | Phase 4 | Pending |
-| HOME-05 | Phase 4 | Pending |
+| HOME-04 | Phase 4 | Complete |
+| HOME-05 | Phase 4 | Complete |
 | HOME-06 | Phase 2 | Pending |
 | HOME-07 | Phase 2 | Pending |
 | HOME-08 | Phase 3 | Complete |
@@ -141,7 +141,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FORM-05 | Phase 3 | Complete |
 | FORM-06 | Phase 3 | Complete |
 | ANIM-01 | Phase 1 | Pending |
-| ANIM-02 | Phase 4 | Pending |
+| ANIM-02 | Phase 4 | Complete |
 | ANIM-03 | Phase 1 | Pending |
 | ANIM-04 | Phase 1 | Pending |
 | SEO-01 | Phase 8 | Pending |
