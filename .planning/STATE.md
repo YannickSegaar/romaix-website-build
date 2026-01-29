@@ -10,27 +10,27 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 1 of 8 (Foundation & Setup)
-Plan: 2 of TBD in current phase
+Plan: 3 of TBD in current phase
 Status: In progress
-Last activity: 2026-01-29 — Completed 01-02-PLAN.md (shadcn/ui component library)
+Last activity: 2026-01-29 — Completed 01-03-PLAN.md (Animation system)
 
-Progress: [██░░░░░░░░] ~25% (estimated based on phase progress)
+Progress: [██░░░░░░░░] ~30% (estimated based on phase progress)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 2.5 min
-- Total execution time: 0.08 hours
+- Total plans completed: 3
+- Average duration: 2.7 min
+- Total execution time: 0.13 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation-setup | 2 | 5 min | 2.5 min |
+| 01-foundation-setup | 3 | 8 min | 2.7 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3 min), 01-02 (2 min)
+- Last 5 plans: 01-01 (3 min), 01-02 (2 min), 01-03 (3 min)
 - Trend: Consistent velocity
 
 ## Accumulated Context
@@ -47,6 +47,9 @@ Recent decisions affecting current work:
 - **Tailwind CSS v4 with PostCSS:** create-next-app installed v4 (CSS-based config) - modern recommended approach (01-01)
 - **Framer Motion 12.x:** Chose stable framer-motion package over newer motion package for reliability (01-01)
 - **React Compiler declined:** Not needed for initial development, can add later if needed (01-01)
+- **Animation wrapper pattern with 'use client':** Isolated client components for animations, keeping parent components as Server Components (01-03)
+- **Enter-only animations (viewport.once):** All animations play once on scroll with no exit animations per App Router constraints (01-03)
+- **Negative viewport margin:** Animations trigger before element fully visible for smoother UX (01-03)
 - **OKLCH color format:** Brand color #587C74 configured in OKLCH for proper opacity modifiers (bg-primary/50) (01-02)
 - **shadcn/ui New York style:** Selected for more opinionated, production-ready styling vs Default style (01-02)
 - **CSS variables enabled:** Allows runtime theme switching capability if needed in future phases (01-02)
@@ -59,7 +62,7 @@ None yet.
 
 **Phase 1 considerations:**
 - ~~Animation library compatibility: Must validate enter-only animations work with Next.js App Router before committing architecture~~ ✓ Framer Motion 12.29.2 installed and verified (01-01)
-- Client Component boundary: Need to establish Container/Presenter pattern early to prevent bundle bloat (upcoming in animation system)
+- ~~Client Component boundary: Need to establish Container/Presenter pattern early to prevent bundle bloat~~ ✓ Animation wrapper pattern established with 'use client' isolation (01-03)
 
 **Phase 4 considerations:**
 - Feature card animations: May need deeper research on workflow visualization patterns if requirements are unclear during planning
@@ -70,10 +73,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-29 (plan 01-02 execution)
-Stopped at: Completed 01-02-PLAN.md - shadcn/ui component library with brand theming in OKLCH
+Last session: 2026-01-29 (plan 01-03 execution)
+Stopped at: Completed 01-03-PLAN.md - Animation wrapper components (FadeIn, SlideIn, StaggerContainer) ready for use
 Resume file: None
 
 ---
 *State initialized: 2026-01-29*
-*Last updated: 2026-01-29 16:05*
+*Last updated: 2026-01-29 15:06*
