@@ -2,6 +2,7 @@ import {
   Hero,
   SocialProof,
   CaseStudies,
+  Solutions,
   HowItWorks,
   FreeAssessment,
   FAQ,
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <SocialProof />
       <CaseStudies />
+      <Solutions />
       <HowItWorks />
       <FreeAssessment />
       <FAQ />
