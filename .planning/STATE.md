@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 2 of 8 (Homepage Core)
-Plan: 1 of 4 in current phase
+Plan: 2 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-29 - Completed 02-01-PLAN.md (Accordion, marquee CSS, data files)
+Last activity: 2026-01-29 - Completed 02-02-PLAN.md (Hero & Social Proof sections)
 
-Progress: [████░░░░░░] ~40% (5 of ~12 total plans estimated)
+Progress: [█████░░░░░] ~50% (6 of ~12 total plans estimated)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
-- Average duration: 2.5 min
-- Total execution time: 0.21 hours
+- Total plans completed: 6
+- Average duration: 2.3 min
+- Total execution time: 0.23 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation-setup | 4 | 11 min | 2.75 min |
-| 02-homepage-core | 1 | 2 min | 2 min |
+| 02-homepage-core | 2 | 3 min | 1.5 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (2 min), 01-03 (3 min), 01-04 (3 min), 02-01 (2 min)
+- Last 5 plans: 01-03 (3 min), 01-04 (3 min), 02-01 (2 min), 02-02 (1 min)
 - Trend: Consistent velocity
 
 ## Accumulated Context
@@ -56,6 +56,9 @@ Recent decisions affecting current work:
 - **CSS variables enabled:** Allows runtime theme switching capability if needed in future phases (01-02)
 - **CSS-only marquee animation:** Used CSS keyframes for logo carousel - better performance on compositor thread (02-01)
 - **Centralized content types:** Created src/types/content.ts as single source of truth for content types (02-01)
+- **Section components as Server Components:** Hero and SocialProof use RSC with FadeIn wrapper for animations (02-02)
+- **Sections barrel export pattern:** @/components/sections for clean imports of section components (02-02)
+- **Placeholder logo pattern:** Div elements with initials ready for real SVG replacement (02-02)
 
 ### Pending Todos
 
@@ -76,10 +79,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-29 17:44 UTC
-Stopped at: Completed 02-01-PLAN.md - Accordion, marquee CSS, and data files ready for homepage sections
+Last session: 2026-01-29 17:49 UTC
+Stopped at: Completed 02-02-PLAN.md - Hero and Social Proof sections ready for homepage
 Resume file: None
 
 ---
 *State initialized: 2026-01-29*
-*Last updated: 2026-01-29 17:44*
+*Last updated: 2026-01-29 17:49*
