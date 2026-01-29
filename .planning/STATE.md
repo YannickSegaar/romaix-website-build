@@ -5,32 +5,33 @@
 See: .planning/PROJECT.md (updated 2025-01-29)
 
 **Core value:** Visitors understand what RomAIx does and take action (book a demo or request a free assessment) within 30 seconds of landing.
-**Current focus:** Phase 1 - Foundation & Setup
+**Current focus:** Phase 2 - Homepage Core (Table Stakes)
 
 ## Current Position
 
-Phase: 1 of 8 (Foundation & Setup)
-Plan: 3 of TBD in current phase
+Phase: 2 of 8 (Homepage Core)
+Plan: 1 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-29 — Completed 01-03-PLAN.md (Animation system)
+Last activity: 2026-01-29 - Completed 02-01-PLAN.md (Accordion, marquee CSS, data files)
 
-Progress: [██░░░░░░░░] ~30% (estimated based on phase progress)
+Progress: [████░░░░░░] ~40% (5 of ~12 total plans estimated)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 2.7 min
-- Total execution time: 0.13 hours
+- Total plans completed: 5
+- Average duration: 2.5 min
+- Total execution time: 0.21 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation-setup | 3 | 8 min | 2.7 min |
+| 01-foundation-setup | 4 | 11 min | 2.75 min |
+| 02-homepage-core | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3 min), 01-02 (2 min), 01-03 (3 min)
+- Last 5 plans: 01-02 (2 min), 01-03 (3 min), 01-04 (3 min), 02-01 (2 min)
 - Trend: Consistent velocity
 
 ## Accumulated Context
@@ -53,6 +54,8 @@ Recent decisions affecting current work:
 - **OKLCH color format:** Brand color #587C74 configured in OKLCH for proper opacity modifiers (bg-primary/50) (01-02)
 - **shadcn/ui New York style:** Selected for more opinionated, production-ready styling vs Default style (01-02)
 - **CSS variables enabled:** Allows runtime theme switching capability if needed in future phases (01-02)
+- **CSS-only marquee animation:** Used CSS keyframes for logo carousel - better performance on compositor thread (02-01)
+- **Centralized content types:** Created src/types/content.ts as single source of truth for content types (02-01)
 
 ### Pending Todos
 
@@ -61,8 +64,8 @@ None yet.
 ### Blockers/Concerns
 
 **Phase 1 considerations:**
-- ~~Animation library compatibility: Must validate enter-only animations work with Next.js App Router before committing architecture~~ ✓ Framer Motion 12.29.2 installed and verified (01-01)
-- ~~Client Component boundary: Need to establish Container/Presenter pattern early to prevent bundle bloat~~ ✓ Animation wrapper pattern established with 'use client' isolation (01-03)
+- ~~Animation library compatibility: Must validate enter-only animations work with Next.js App Router before committing architecture~~ Framer Motion 12.29.2 installed and verified (01-01)
+- ~~Client Component boundary: Need to establish Container/Presenter pattern early to prevent bundle bloat~~ Animation wrapper pattern established with 'use client' isolation (01-03)
 
 **Phase 4 considerations:**
 - Feature card animations: May need deeper research on workflow visualization patterns if requirements are unclear during planning
@@ -73,10 +76,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-29 (plan 01-03 execution)
-Stopped at: Completed 01-03-PLAN.md - Animation wrapper components (FadeIn, SlideIn, StaggerContainer) ready for use
+Last session: 2026-01-29 17:44 UTC
+Stopped at: Completed 02-01-PLAN.md - Accordion, marquee CSS, and data files ready for homepage sections
 Resume file: None
 
 ---
 *State initialized: 2026-01-29*
-*Last updated: 2026-01-29 15:06*
+*Last updated: 2026-01-29 17:44*
