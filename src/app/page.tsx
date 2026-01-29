@@ -3,7 +3,9 @@ import {
   SocialProof,
   CaseStudies,
   HowItWorks,
+  FreeAssessment,
   FAQ,
+  Contact,
 } from '@/components/sections'
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
       <SocialProof />
       <CaseStudies />
       <HowItWorks />
+      <FreeAssessment />
       <FAQ />
+      <Contact />
     </>
   )
 }
