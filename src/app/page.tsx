@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/motion"
 
 export default function Home() {
   return (
-    <div className="container py-16 md:py-24">
+    <div className="container px-4 md:px-6 py-16 md:py-24">
       <FadeIn>
         <section className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
