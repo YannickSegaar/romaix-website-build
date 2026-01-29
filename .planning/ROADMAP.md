@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation & Setup** - Project initialization, UI components, layout shell, animation infrastructure
 - [ ] **Phase 2: Homepage Core (Table Stakes)** - Hero, social proof, solutions, case studies showcase, FAQ, contact section
-- [ ] **Phase 3: Lead Capture & Forms** - Form infrastructure, validation, Server Actions, email integration
+- [x] **Phase 3: Lead Capture & Forms** - Form infrastructure, validation, Server Actions, email integration
 - [ ] **Phase 4: Animated Feature Cards (Differentiator)** - Trengo-style animated cards showing AI agents and workflows
 - [ ] **Phase 5: Content Pages** - About, Contact, Privacy Policy, Terms of Service
 - [ ] **Phase 6: Blog Implementation** - Blog listing, post detail pages, homepage preview, category filtering
@@ -78,7 +78,7 @@ Plans:
 - [x] 03-02-PLAN.md — Create Resend email client, templates, contact Server Action and form
 - [x] 03-03-PLAN.md — Create assessment and demo Server Actions and form components
 - [x] 03-04-PLAN.md — Create Free Assessment CTA and Contact sections, wire into homepage
-- [ ] 03-05-PLAN.md — [GAP CLOSURE] Create /contact page route with conditional form rendering
+- [x] 03-05-PLAN.md — [GAP CLOSURE] Create /contact page route with conditional form rendering
 
 ### Phase 4: Animated Feature Cards (Differentiator)
 **Goal**: Differentiate from competitors with animated cards showing AI agents and workflows in action
@@ -173,7 +173,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 |-------|----------------|--------|-----------|
 | 1. Foundation & Setup | 4/4 | Complete | 2026-01-29 |
 | 2. Homepage Core (Table Stakes) | 1/4 | In progress | - |
-| 3. Lead Capture & Forms | 0/4 | Not started | - |
+| 3. Lead Capture & Forms | 5/5 | Complete | 2026-01-29 |
 | 4. Animated Feature Cards | 0/TBD | Not started | - |
 | 5. Content Pages | 0/TBD | Not started | - |
 | 6. Blog Implementation | 0/TBD | Not started | - |
