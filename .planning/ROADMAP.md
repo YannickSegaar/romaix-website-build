@@ -12,8 +12,8 @@ This roadmap transforms RomAIx from a heavy Framer-built dark theme into a moder
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Setup** - Project initialization, UI components, layout shell, animation infrastructure
-- [ ] **Phase 2: Homepage Core (Table Stakes)** - Hero, social proof, solutions, case studies showcase, FAQ, contact section
+- [x] **Phase 1: Foundation & Setup** - Project initialization, UI components, layout shell, animation infrastructure
+- [x] **Phase 2: Homepage Core (Table Stakes)** - Hero, social proof, solutions, case studies showcase, FAQ, contact section
 - [x] **Phase 3: Lead Capture & Forms** - Form infrastructure, validation, Server Actions, email integration
 - [x] **Phase 4: Animated Feature Cards (Differentiator)** - Trengo-style animated cards showing AI agents and workflows
 - [ ] **Phase 5: Content Pages** - About, Contact, Privacy Policy, Terms of Service
@@ -56,9 +56,9 @@ Plans:
 
 Plans:
 - [x] 02-01-PLAN.md — Install Accordion, add marquee CSS, create data files and types
-- [ ] 02-02-PLAN.md — Create Hero and Social Proof sections
-- [ ] 02-03-PLAN.md — Create Case Studies and How It Works sections
-- [ ] 02-04-PLAN.md — Create FAQ section and wire complete homepage
+- [x] 02-02-PLAN.md — Create Hero and Social Proof sections
+- [x] 02-03-PLAN.md — Create Case Studies and How It Works sections
+- [x] 02-04-PLAN.md — Create FAQ section and wire complete homepage
 
 ### Phase 3: Lead Capture & Forms
 **Goal**: Enable visitor-to-lead conversion through functional, validated forms with email notifications
@@ -174,7 +174,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Setup | 4/4 | Complete | 2026-01-29 |
-| 2. Homepage Core (Table Stakes) | 1/4 | In progress | - |
+| 2. Homepage Core (Table Stakes) | 4/4 | Complete | 2026-01-30 |
 | 3. Lead Capture & Forms | 5/5 | Complete | 2026-01-29 |
 | 4. Animated Feature Cards | 4/4 | Complete | 2026-01-29 |
 | 5. Content Pages | 0/TBD | Not started | - |
