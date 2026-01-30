@@ -144,11 +144,13 @@ Plans:
   4. Case study page includes client testimonial quote with name and company
   5. Visitor sees "Related Case Studies" section suggesting 2-3 similar case studies
   6. Case Studies listing page displays all case studies in grid layout with filter options
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [ ] 07-01-PLAN.md — Case study schema, utilities, and content directory structure
+- [ ] 07-02-PLAN.md — Sample MDX content with workflow visualizations
+- [ ] 07-03-PLAN.md — Case study UI components (Card, Metrics, Testimonial, Workflow, Related)
+- [ ] 07-04-PLAN.md — Listing page, detail page, and homepage link updates
 
 ### Phase 8: SEO & Performance + Deployment
 **Goal**: Launch-ready site meeting Core Web Vitals with complete SEO configuration on Vercel
@@ -182,7 +184,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 4. Animated Feature Cards | 4/4 | Complete | 2026-01-29 |
 | 5. Content Pages | 3/3 | Complete | 2026-01-30 |
 | 6. Blog Implementation | 4/4 | Complete | 2026-01-30 |
-| 7. Case Studies Detail Pages | 0/TBD | Not started | - |
+| 7. Case Studies Detail Pages | 0/4 | Not started | - |
 | 8. SEO & Performance + Deployment | 0/TBD | Not started | - |
 
 ---
