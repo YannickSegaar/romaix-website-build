@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2025-01-29)
 
 **Core value:** Visitors understand what RomAIx does and take action (book a demo or request a free assessment) within 30 seconds of landing.
-**Current focus:** Phase 5 - Content Pages
+**Current focus:** Phase 6 - Blog Implementation
 
 ## Current Position
 
-Phase: 5 of 8 (Content Pages)
-Plan: 3 of 3 in current phase
-Status: Phase verified and complete
-Last activity: 2026-01-30 - Phase 5 verification passed (5/5 must-haves)
+Phase: 6 of 8 (Blog Implementation)
+Plan: 1 of 4 in current phase
+Status: In progress
+Last activity: 2026-01-30 - Completed 06-01-PLAN.md (MDX Infrastructure)
 
-Progress: [██████████] 100% (20 of 20 total plans estimated)
+Progress: [██████████░░] 91% (21 of 23 total plans estimated)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 20
-- Average duration: 1.90 min
-- Total execution time: 0.63 hours
+- Total plans completed: 21
+- Average duration: 1.93 min
+- Total execution time: 0.68 hours
 
 **By Phase:**
 
@@ -32,10 +32,11 @@ Progress: [██████████] 100% (20 of 20 total plans estimated)
 | 03-lead-capture-forms | 5 | 12.5 min | 2.5 min |
 | 04-animated-feature-cards | 4 | 6.2 min | 1.55 min |
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
+| 06-blog-implementation | 1 | 3 min | 3.0 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-04 (3 min), 05-02 (1 min), 05-01 (2 min), 05-03 (2.5 min)
-- Trend: Phase 5 complete - About, Contact, Privacy, Terms pages all done
+- Last 5 plans: 05-02 (1 min), 05-01 (2 min), 05-03 (2.5 min), 06-01 (3 min)
+- Trend: Phase 6 started - MDX infrastructure established
 
 ## Accumulated Context
 
@@ -98,6 +99,10 @@ Recent decisions affecting current work:
 - **Legal page prose pattern:** prose prose-slate lg:prose-lg dark:prose-invert mx-auto max-w-4xl for legal documents (05-03)
 - **GDPR-compliant Privacy Policy structure:** All required sections for EU compliance (05-03)
 - **Plain language legal content:** Avoiding heavy legalese while maintaining completeness (05-03)
+- **Next.js config MJS format:** Converted from TS to MJS for ESM compatibility with @next/mdx (06-01)
+- **Simplified MDX plugin configuration:** Removed rehype-pretty-code due to serialization errors in Next.js 16 Turbopack (06-01)
+- **Graceful content directory handling:** Blog utilities return empty array if posts directory doesn't exist yet (06-01)
+- **MDX components pattern:** useMDXComponents in mdx-components.tsx at project root with prose classes (06-01)
 
 ### Pending Todos
 
@@ -120,7 +125,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed Phase 5 - Content Pages (verified)
+Stopped at: Completed 06-01-PLAN.md (MDX Infrastructure)
 Resume file: None
 
 ---
