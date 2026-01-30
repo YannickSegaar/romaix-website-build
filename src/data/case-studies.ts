@@ -9,7 +9,7 @@ export const caseStudies: CaseStudy[] = [
     metricValue: '85%',
     description:
       'Automated customer inquiries and booking confirmations, reducing average response time from 4 hours to under 30 minutes.',
-    slug: 'adventure-tours-response-automation',
+    slug: 'adventure-tours',
   },
   {
     id: 'coastal-retreats',
@@ -19,7 +19,7 @@ export const caseStudies: CaseStudy[] = [
     metricValue: '40+',
     description:
       'AI-powered guest communication and booking management freed staff to focus on exceptional in-person experiences.',
-    slug: 'coastal-retreats-booking-automation',
+    slug: 'coastal-retreats',
   },
   {
     id: 'euro-expeditions',
@@ -29,6 +29,6 @@ export const caseStudies: CaseStudy[] = [
     metricValue: '+32%',
     description:
       'Intelligent lead nurturing and automated follow-ups increased booking conversions from inquiries.',
-    slug: 'euro-expeditions-lead-nurturing',
+    slug: 'euro-expeditions',
   },
 ]
