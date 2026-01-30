@@ -36,3 +36,6 @@ export interface Integration {
   name: string
   logo: string // Path to SVG icon (e.g., "/icons/whatsapp.svg")
 }
+
+// Blog post type (re-exported from blog.ts for consistency)
+export type { BlogPost } from '@/lib/blog'
