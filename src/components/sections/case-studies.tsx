@@ -7,7 +7,12 @@ import {
   CardDescription,
   CardContent,
 } from '@/components/ui/card'
-import { FadeIn, StaggerContainer, StaggerItem } from '@/components/motion'
+import {
+  FadeIn,
+  StaggerContainer,
+  StaggerItem,
+  AnimatedCounter,
+} from '@/components/motion'
 import { caseStudies } from '@/data/case-studies'
 
 export function CaseStudies() {
@@ -18,18 +23,23 @@ export function CaseStudies() {
           Real Results for Travel Businesses
         </h2>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-          See how we've helped businesses like yours save time, increase conversions, and deliver better customer experiences.
+          See how we&apos;ve helped businesses like yours save time, increase conversions, and deliver better customer experiences.
         </p>
       </FadeIn>
 
       <StaggerContainer className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {caseStudies.map((study) => (
           <StaggerItem key={study.id}>
-            <Card className="h-full hover:shadow-lg transition-shadow group">
+            <Card className="h-full border-border hover:border-primary/30 hover:bg-primary/[0.02] hover:shadow-lg transition-all duration-300 group">
               <CardHeader>
-                {/* Metric prominently displayed */}
+                {/* Metric prominently displayed with animation */}
                 <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
-                  {study.metricValue}
+                  <AnimatedCounter
+                    value={study.metricData.value}
+                    prefix={study.metricData.prefix}
+                    suffix={study.metricData.suffix}
+                    duration={1.5}
+                  />
                 </div>
                 <CardTitle className="text-lg">{study.metric}</CardTitle>
                 <CardDescription className="text-sm">

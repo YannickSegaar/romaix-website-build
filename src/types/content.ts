@@ -1,3 +1,10 @@
+// Structured metric data for animated counters
+export interface MetricData {
+  value: number
+  prefix?: string
+  suffix?: string
+}
+
 // Case study type - displayed on homepage showcase
 export interface CaseStudy {
   id: string
@@ -5,6 +12,7 @@ export interface CaseStudy {
   industry: string
   metric: string // e.g., "Time Saved Weekly"
   metricValue: string // e.g., "40+ hours"
+  metricData: MetricData // Parsed metric for animations
   description: string // Brief summary (1-2 sentences)
   slug: string // URL slug for future detail page
 }

@@ -7,6 +7,7 @@ export const caseStudies: CaseStudy[] = [
     industry: 'Tour Operator',
     metric: 'Response Time Reduced',
     metricValue: '85%',
+    metricData: { value: 85, suffix: '%' },
     description:
       'Automated customer inquiries and booking confirmations, reducing average response time from 4 hours to under 30 minutes.',
     slug: 'adventure-tours',
@@ -17,6 +18,7 @@ export const caseStudies: CaseStudy[] = [
     industry: 'Boutique Hotels',
     metric: 'Hours Saved Weekly',
     metricValue: '40+',
+    metricData: { value: 40, suffix: '+' },
     description:
       'AI-powered guest communication and booking management freed staff to focus on exceptional in-person experiences.',
     slug: 'coastal-retreats',
@@ -27,6 +29,7 @@ export const caseStudies: CaseStudy[] = [
     industry: 'Travel Agency',
     metric: 'Booking Conversion',
     metricValue: '+32%',
+    metricData: { value: 32, prefix: '+', suffix: '%' },
     description:
       'Intelligent lead nurturing and automated follow-ups increased booking conversions from inquiries.',
     slug: 'euro-expeditions',

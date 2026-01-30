@@ -1,3 +1,5 @@
+'use client'
+
 import { StaggerContainer, StaggerItem } from '@/components/motion'
 import { FEATURES, INTEGRATIONS } from '@/data/solutions'
 import {
@@ -9,6 +11,7 @@ import {
   GitBranch,
 } from 'lucide-react'
 import Image from 'next/image'
+import { motion, useReducedMotion } from 'framer-motion'
 
 // Map icon names to Lucide components
 const iconMap: Record<string, React.ElementType> = {
@@ -18,6 +21,67 @@ const iconMap: Record<string, React.ElementType> = {
   MessageSquare,
   BarChart3,
   GitBranch,
+}
+
+function FeatureCard({
+  feature,
+  IconComponent,
+}: {
+  feature: (typeof FEATURES)[number]
+  IconComponent: React.ElementType
+}) {
+  const prefersReducedMotion = useReducedMotion()
+
+  const cardContent = (
+    <>
+      <div
+        className={`mb-4 inline-flex rounded-lg p-3 transition-all duration-300 ${
+          feature.isHero
+            ? 'bg-primary/10 text-primary'
+            : 'bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary group-hover:scale-110 group-hover:rotate-3'
+        }`}
+      >
+        <IconComponent className="h-6 w-6" />
+      </div>
+      <h3 className="mb-2 text-xl font-semibold">{feature.title}</h3>
+      <p className="text-muted-foreground">{feature.description}</p>
+    </>
+  )
+
+  if (prefersReducedMotion) {
+    return (
+      <div
+        className={`group rounded-xl border-2 bg-card p-6 transition-all duration-300 hover:shadow-xl ${
+          feature.isHero
+            ? 'border-primary/30 hover:border-primary/50 shadow-primary/10'
+            : 'border-border hover:border-primary/20'
+        }`}
+      >
+        {cardContent}
+      </div>
+    )
+  }
+
+  return (
+    <motion.div
+      className={`group rounded-xl border-2 bg-card p-6 transition-colors duration-300 ${
+        feature.isHero
+          ? 'border-primary/30 hover:border-primary/50 hover:shadow-[0_0_30px_-5px] hover:shadow-[var(--accent-gold)]/20'
+          : 'border-border hover:border-primary/20 hover:bg-gradient-to-br hover:from-card hover:to-primary/[0.02]'
+      }`}
+      whileHover={{
+        scale: feature.isHero ? 1.03 : 1.02,
+        y: -4,
+      }}
+      transition={{
+        type: 'spring',
+        stiffness: 300,
+        damping: 20,
+      }}
+    >
+      {cardContent}
+    </motion.div>
+  )
 }
 
 export function Solutions() {
@@ -45,25 +109,7 @@ export function Solutions() {
             const IconComponent = iconMap[feature.icon] || Bot
             return (
               <StaggerItem key={feature.id}>
-                <div
-                  className={`group rounded-xl border-2 bg-card p-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.02] ${
-                    feature.isHero
-                      ? 'border-primary/30 hover:border-primary/50 hover:scale-[1.05]'
-                      : 'border-border hover:border-primary/20'
-                  }`}
-                >
-                  <div
-                    className={`mb-4 inline-flex rounded-lg p-3 ${
-                      feature.isHero
-                        ? 'bg-primary/10 text-primary'
-                        : 'bg-muted text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary'
-                    } transition-colors`}
-                  >
-                    <IconComponent className="h-6 w-6" />
-                  </div>
-                  <h3 className="mb-2 text-xl font-semibold">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
-                </div>
+                <FeatureCard feature={feature} IconComponent={IconComponent} />
               </StaggerItem>
             )
           })}
