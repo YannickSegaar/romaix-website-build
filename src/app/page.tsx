@@ -6,6 +6,7 @@ import {
   HowItWorks,
   FreeAssessment,
   FAQ,
+  BlogPreview,
   Contact,
 } from '@/components/sections'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <HowItWorks />
       <FreeAssessment />
       <FAQ />
+      <BlogPreview />
       <Contact />
     </>
   )
