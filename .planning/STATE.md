@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 7 of 8 (Case Studies Detail Pages)
-Plan: 2 of 4 in current phase
+Plan: 2 of 4 in current phase (01 and 02 complete)
 Status: In progress
-Last activity: 2026-01-30 - Completed 07-02-PLAN.md (Sample Case Study Content)
+Last activity: 2026-01-30 - Completed 07-01-PLAN.md (Case Study Schema and Utilities)
 
 Progress: [██████████████████████████░░] 93% (26 of 28 total plans estimated)
 
@@ -33,11 +33,11 @@ Progress: [███████████████████████
 | 04-animated-feature-cards | 4 | 6.2 min | 1.55 min |
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
 | 06-blog-implementation | 4 | 18.3 min | 4.58 min |
-| 07-case-studies-detail-pages | 2 | 7.5 min | 3.75 min |
+| 07-case-studies-detail-pages | 2 | 11.5 min | 5.75 min |
 
 **Recent Trend:**
-- Last 5 plans: 06-03 (4 min), 06-04 (8 min), 07-01 (3.5 min), 07-02 (4 min)
-- Trend: Phase 7 case studies in progress
+- Last 5 plans: 06-03 (4 min), 06-04 (8 min), 07-02 (4 min), 07-01 (4 min)
+- Trend: Phase 7 case studies foundation complete (schema + content)
 
 ## Accumulated Context
 
@@ -113,6 +113,8 @@ Recent decisions affecting current work:
 - **Travel industry blog content focus:** Posts address tour operator pain points (AI agents, ROI, WhatsApp) (06-04)
 - **Case study schema with Zod validation:** Nested testimonial and results array schemas for rich metadata (07-01)
 - **Case study content mirroring blog pattern:** Same gray-matter + next-mdx-remote approach from Phase 6 (07-01)
+- **Slug in frontmatter pattern:** Case studies store slug in frontmatter (validated by Zod) unlike blog which derives from filename (07-01)
+- **Jaccard similarity for related content:** getRelatedCaseStudies uses tag + industry set intersection for content matching (07-01)
 - **Consistent case study slug naming:** Slugs match MDX filenames (adventure-tours not adventure-tours-response-automation) (07-02)
 - **Challenge/Solution/Impact narrative structure:** All case studies follow same 3-section story pattern (07-02)
 - **Before/after SVG workflow diagrams:** Gray dashed for manual process, brand color solid for automated (07-02)
@@ -142,7 +144,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed 07-02-PLAN.md (Sample Case Study Content)
+Stopped at: Completed 07-01-PLAN.md (Case Study Schema and Utilities)
 Resume file: None
 
 ---
