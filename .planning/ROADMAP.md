@@ -108,11 +108,12 @@ Plans:
   3. Visitor can read Privacy Policy covering data collection, usage, and GDPR compliance
   4. Visitor can read Terms of Service outlining engagement terms and service scope
   5. All pages render with consistent header/footer and mobile-responsive layout
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — Install typography plugin, create About page with mission and team
+- [ ] 05-02-PLAN.md — Enhance Contact page with info sidebar
+- [ ] 05-03-PLAN.md — Create Privacy Policy and Terms of Service pages
 
 ### Phase 6: Blog Implementation
 **Goal**: Establish thought leadership through blog with card layout and category filtering
@@ -177,11 +178,11 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 2. Homepage Core (Table Stakes) | 4/4 | Complete | 2026-01-30 |
 | 3. Lead Capture & Forms | 5/5 | Complete | 2026-01-29 |
 | 4. Animated Feature Cards | 4/4 | Complete | 2026-01-29 |
-| 5. Content Pages | 0/TBD | Not started | - |
+| 5. Content Pages | 0/3 | Planned | - |
 | 6. Blog Implementation | 0/TBD | Not started | - |
 | 7. Case Studies Detail Pages | 0/TBD | Not started | - |
 | 8. SEO & Performance + Deployment | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-29*
-*Last updated: 2026-01-29*
+*Last updated: 2026-01-30*
