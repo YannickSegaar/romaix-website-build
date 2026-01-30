@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 8 of 8 (SEO, Performance & Deployment)
-Plan: 1 of 4 in current phase
+Plan: 2 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-30 - Completed 08-01-PLAN.md (SEO Foundation)
+Last activity: 2026-01-30 - Completed 08-02-PLAN.md (OpenGraph Metadata & Images)
 
-Progress: [█████████████████████████████] 91% (29 of 32 total plans)
+Progress: [██████████████████████████████] 94% (30 of 32 total plans)
 
 ## Performance Metrics
 
@@ -34,11 +34,11 @@ Progress: [███████████████████████
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
 | 06-blog-implementation | 4 | 18.3 min | 4.58 min |
 | 07-case-studies-detail-pages | 4 | 13.5 min | 3.38 min |
-| 08-seo-performance-deployment | 1 | 5 min | 5.0 min |
+| 08-seo-performance-deployment | 2 | 11 min | 5.5 min |
 
 **Recent Trend:**
-- Last 5 plans: 07-02 (4 min), 07-03 (5.5 min), 07-04 (2 min), 08-01 (5 min)
-- Trend: Phase 8 started - SEO foundation complete
+- Last 5 plans: 07-03 (5.5 min), 07-04 (2 min), 08-01 (5 min), 08-02 (6 min)
+- Trend: Phase 8 progressing - OpenGraph metadata and images complete
 
 ## Accumulated Context
 
@@ -125,6 +125,10 @@ Recent decisions affecting current work:
 - **Title template pattern:** Using `{ default: '...', template: '%s | RomAIx' }` for automatic consistent title formatting (08-01)
 - **Constants file for SITE_URL:** `process.env.NEXT_PUBLIC_SITE_URL || 'https://romaix.ai'` allows deployment flexibility (08-01)
 - **Inter font optimization:** Added `variable: '--font-inter'` and `display: 'swap'` for CLS optimization (08-01)
+- **Bare titles for template compatibility:** generateMetadata returns bare titles, root layout template applies automatically (08-02)
+- **Satori display:flex requirement:** All container divs in ImageResponse need explicit display: 'flex' (08-02)
+- **Brand gradient in OG images:** linear-gradient from #587C74 to #3d5752 for consistent branding (08-02)
+- **generateStaticParams in OG files:** Required for dynamicParams=false compatibility in dynamic routes (08-02)
 
 ### Pending Todos
 
@@ -158,7 +162,7 @@ Run `/gsd:check-todos` to view full list.
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed 08-01-PLAN.md (SEO Foundation)
+Stopped at: Completed 08-02-PLAN.md (OpenGraph Metadata & Images)
 Resume file: None
 
 ---
