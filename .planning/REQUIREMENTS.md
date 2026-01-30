@@ -26,7 +26,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **HOME-06**: Case Studies showcase featuring 3 detailed case studies with quantified results
 - [x] **HOME-07**: How It Works section with 3-4 step visual process
 - [x] **HOME-08**: Free Assessment CTA section (dedicated lead magnet)
-- [ ] **HOME-09**: Blog preview showing latest 3 posts in card layout
+- [x] **HOME-09**: Blog preview showing latest 3 posts in card layout
 - [x] **HOME-10**: FAQ section with expandable accordion
 - [x] **HOME-11**: Contact section with form
 
@@ -35,8 +35,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **PAGE-01**: About page with team info, mission, and travel industry focus
 - [ ] **PAGE-02**: Case Studies listing page with all case studies
 - [ ] **PAGE-03**: Case Study detail pages with before/after workflows and results
-- [ ] **PAGE-04**: Blog listing page with category filtering and card layout
-- [ ] **PAGE-05**: Blog post detail pages with MDX rendering
+- [x] **PAGE-04**: Blog listing page with category filtering and card layout
+- [x] **PAGE-05**: Blog post detail pages with MDX rendering
 - [x] **PAGE-06**: Contact page with full-page form experience
 - [x] **PAGE-07**: Privacy Policy page
 - [x] **PAGE-08**: Terms of Service page
@@ -123,14 +123,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-06 | Phase 2 | Complete |
 | HOME-07 | Phase 2 | Complete |
 | HOME-08 | Phase 3 | Complete |
-| HOME-09 | Phase 6 | Pending |
+| HOME-09 | Phase 6 | Complete |
 | HOME-10 | Phase 2 | Complete |
 | HOME-11 | Phase 3 | Complete |
 | PAGE-01 | Phase 5 | Complete |
 | PAGE-02 | Phase 7 | Pending |
 | PAGE-03 | Phase 7 | Pending |
-| PAGE-04 | Phase 6 | Pending |
-| PAGE-05 | Phase 6 | Pending |
+| PAGE-04 | Phase 6 | Complete |
+| PAGE-05 | Phase 6 | Complete |
 | PAGE-06 | Phase 5 | Complete |
 | PAGE-07 | Phase 5 | Complete |
 | PAGE-08 | Phase 5 | Complete |
@@ -161,4 +161,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2025-01-29*
-*Last updated: 2026-01-30 after Phase 5 completion*
+*Last updated: 2026-01-30 after Phase 6 completion*
