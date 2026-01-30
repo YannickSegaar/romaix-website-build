@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 4: Animated Feature Cards (Differentiator)** - Trengo-style animated cards showing AI agents and workflows
 - [x] **Phase 5: Content Pages** - About, Contact, Privacy Policy, Terms of Service
 - [x] **Phase 6: Blog Implementation** - Blog listing, post detail pages, homepage preview, category filtering
-- [ ] **Phase 7: Case Studies Detail Pages** - Individual case study pages with workflows and quantified results
+- [x] **Phase 7: Case Studies Detail Pages** - Individual case study pages with workflows and quantified results
 - [ ] **Phase 8: SEO & Performance + Deployment** - Metadata, sitemap, Core Web Vitals optimization, Vercel deployment
 
 ## Phase Details
@@ -147,10 +147,10 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Case study schema, utilities, and content directory structure
-- [ ] 07-02-PLAN.md — Sample MDX content with workflow visualizations
-- [ ] 07-03-PLAN.md — Case study UI components (Card, Metrics, Testimonial, Workflow, Related)
-- [ ] 07-04-PLAN.md — Listing page, detail page, and homepage link updates
+- [x] 07-01-PLAN.md — Case study schema, utilities, and content directory structure
+- [x] 07-02-PLAN.md — Sample MDX content with workflow visualizations
+- [x] 07-03-PLAN.md — Case study UI components (Card, Metrics, Testimonial, Workflow, Related)
+- [x] 07-04-PLAN.md — Listing page, detail page, and homepage link updates
 
 ### Phase 8: SEO & Performance + Deployment
 **Goal**: Launch-ready site meeting Core Web Vitals with complete SEO configuration on Vercel
@@ -184,9 +184,9 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 4. Animated Feature Cards | 4/4 | Complete | 2026-01-29 |
 | 5. Content Pages | 3/3 | Complete | 2026-01-30 |
 | 6. Blog Implementation | 4/4 | Complete | 2026-01-30 |
-| 7. Case Studies Detail Pages | 0/4 | Not started | - |
+| 7. Case Studies Detail Pages | 4/4 | Complete | 2026-01-30 |
 | 8. SEO & Performance + Deployment | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-29*
-*Last updated: 2026-01-30*
+*Last updated: 2026-01-30 (Phase 7 complete)*
