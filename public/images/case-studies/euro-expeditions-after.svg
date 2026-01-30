@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#587C74" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect fill="#f9fafb" width="800" height="400" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Automated Process: With RomAIx</text>
+
+  <!-- Step 1: Lead Inquiry -->
+  <rect x="40" y="80" width="140" height="80" rx="8" fill="white" stroke="#587C74" stroke-width="2"/>
+  <text x="110" y="115" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Lead</text>
+  <text x="110" y="135" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Inquiry</text>
+  <text x="110" y="155" text-anchor="middle" fill="#587C74" font-family="system-ui, sans-serif" font-size="11">(Excited!)</text>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="120" x2="220" y2="120" stroke="#587C74" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <!-- Step 2: AI Engagement -->
+  <rect x="230" y="80" width="160" height="80" rx="8" fill="#587C74" stroke="#587C74" stroke-width="2"/>
+  <text x="310" y="110" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600">RomAIx AI</text>
+  <text x="310" y="130" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Qualification</text>
+  <text x="310" y="150" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="system-ui, sans-serif" font-size="11">(Under 5 min)</text>
+
+  <!-- Arrow 2 -->
+  <line x1="390" y1="120" x2="430" y2="120" stroke="#587C74" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <!-- Step 3: Warm Handoff -->
+  <rect x="440" y="80" width="140" height="80" rx="8" fill="white" stroke="#587C74" stroke-width="2"/>
+  <text x="510" y="115" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Qualified</text>
+  <text x="510" y="135" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Handoff</text>
+  <text x="510" y="155" text-anchor="middle" fill="#587C74" font-family="system-ui, sans-serif" font-size="11">(Full Context)</text>
+
+  <!-- Arrow 3 -->
+  <line x1="580" y1="120" x2="620" y2="120" stroke="#587C74" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <!-- Step 4: Booking -->
+  <rect x="630" y="80" width="130" height="80" rx="8" fill="white" stroke="#587C74" stroke-width="2"/>
+  <text x="695" y="115" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Booking</text>
+  <text x="695" y="135" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Confirmed</text>
+  <text x="695" y="155" text-anchor="middle" fill="#16a34a" font-family="system-ui, sans-serif" font-size="11">(16% Convert)</text>
+
+  <!-- Timeline indicator -->
+  <rect x="100" y="220" width="600" height="40" rx="4" fill="#dcfce7"/>
+  <text x="400" y="245" text-anchor="middle" fill="#16a34a" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Response Time: Under 5 Minutes - Strike While Hot!</text>
+
+  <!-- Benefits -->
+  <text x="150" y="300" fill="#374151" font-family="system-ui, sans-serif" font-size="12">+ Instant engagement captures excitement</text>
+  <text x="150" y="320" fill="#374151" font-family="system-ui, sans-serif" font-size="12">+ Pre-qualified leads save agent time</text>
+  <text x="150" y="340" fill="#374151" font-family="system-ui, sans-serif" font-size="12">+ +32% booking conversion rate</text>
+  <text x="150" y="360" fill="#374151" font-family="system-ui, sans-serif" font-size="12">+ Revenue per lead: $142 (+67%)</text>
+</svg>
