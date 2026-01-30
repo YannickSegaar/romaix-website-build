@@ -3,13 +3,9 @@ import { FadeIn } from '@/components/motion'
 import { Target, Compass, TrendingUp } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us | RomAIx',
-  description: 'Learn about RomAIx team and our mission to transform the travel industry with AI automation solutions.',
-  openGraph: {
-    title: 'About RomAIx - AI Automation for Travel Industry',
-    description: 'Meet the team behind RomAIx',
-    type: 'website',
-  },
+  title: 'About Us',
+  description:
+    'Meet the RomAIx team and learn about our mission to transform the travel industry with intelligent AI automation solutions.',
 }
 
 const values = [

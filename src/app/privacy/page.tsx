@@ -2,13 +2,9 @@ import type { Metadata } from 'next'
 import { FadeIn } from '@/components/motion'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | RomAIx',
-  description: 'RomAIx Privacy Policy - Learn how we collect, use, and protect your data.',
-  openGraph: {
-    title: 'Privacy Policy | RomAIx',
-    description: 'How RomAIx handles your data',
-    type: 'website',
-  },
+  title: 'Privacy Policy',
+  description:
+    'Learn how RomAIx collects, uses, and protects your personal data. Our privacy practices comply with GDPR and EU data protection regulations.',
 }
 
 export default function PrivacyPage() {

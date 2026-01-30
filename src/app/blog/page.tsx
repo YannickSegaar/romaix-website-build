@@ -4,9 +4,9 @@ import { FadeIn } from '@/components/motion';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog | RomAIx',
+  title: 'Blog',
   description:
-    'Insights on AI automation, workflow optimization, and travel industry technology',
+    'Insights on AI automation, workflow optimization, and technology for tour operators, travel agencies, and boutique hotels.',
 };
 
 interface BlogPageProps {

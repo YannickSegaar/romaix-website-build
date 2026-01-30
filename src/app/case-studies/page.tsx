@@ -4,9 +4,9 @@ import { FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Case Studies | RomAIx',
+  title: 'Case Studies',
   description:
-    'See how we\'ve helped travel businesses save time, increase conversions, and deliver better customer experiences with AI automation.',
+    'Real success stories from travel businesses using RomAIx AI automation. See how tour operators and hotels save time and improve customer experiences.',
 };
 
 interface CaseStudiesPageProps {

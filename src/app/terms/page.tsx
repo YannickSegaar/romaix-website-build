@@ -2,13 +2,9 @@ import type { Metadata } from 'next'
 import { FadeIn } from '@/components/motion'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | RomAIx',
-  description: 'RomAIx Terms of Service - Terms and conditions for using our services.',
-  openGraph: {
-    title: 'Terms of Service | RomAIx',
-    description: 'Terms for RomAIx services',
-    type: 'website',
-  },
+  title: 'Terms of Service',
+  description:
+    'Terms and conditions for using RomAIx AI automation consulting services and website.',
 }
 
 export default function TermsPage() {

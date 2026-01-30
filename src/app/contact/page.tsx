@@ -4,13 +4,9 @@ import { Mail, Clock, MapPin, Calendar } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | RomAIx',
-  description: 'Get in touch with RomAIx for AI automation solutions. Book a demo, request a free assessment, or send us a message.',
-  openGraph: {
-    title: 'Contact RomAIx',
-    description: 'AI automation solutions for travel industry',
-    type: 'website',
-  },
+  title: 'Contact Us',
+  description:
+    'Get in touch with RomAIx for AI automation solutions. Book a demo, request a free assessment, or send us a message.',
 }
 
 type FormType = 'demo' | 'assessment' | 'contact'
