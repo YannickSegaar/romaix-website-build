@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import PlausibleProvider from 'next-plausible'
 import './globals.css'
 import { Header, Footer } from '@/components/layout'
 import { Toaster } from '@/components/ui/sonner'
@@ -40,10 +41,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <main className="min-h-[calc(100vh-4rem)]">{children}</main>
-        <Footer />
-        <Toaster />
+        <PlausibleProvider domain="romaix.ai">
+          <Header />
+          <main className="min-h-[calc(100vh-4rem)]">{children}</main>
+          <Footer />
+          <Toaster />
+        </PlausibleProvider>
       </body>
     </html>
   )
