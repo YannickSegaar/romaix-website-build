@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 8 of 8 (SEO, Performance & Deployment)
-Plan: 2 of 4 in current phase
+Plan: 3 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-30 - Completed 08-02-PLAN.md (OpenGraph Metadata & Images)
+Last activity: 2026-01-30 - Completed 08-03-PLAN.md (Analytics & Bundle Analyzer)
 
-Progress: [██████████████████████████████] 94% (30 of 32 total plans)
+Progress: [██████████████████████████████] 97% (31 of 32 total plans)
 
 ## Performance Metrics
 
@@ -34,11 +34,11 @@ Progress: [███████████████████████
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
 | 06-blog-implementation | 4 | 18.3 min | 4.58 min |
 | 07-case-studies-detail-pages | 4 | 13.5 min | 3.38 min |
-| 08-seo-performance-deployment | 2 | 11 min | 5.5 min |
+| 08-seo-performance-deployment | 3 | 18.5 min | 6.2 min |
 
 **Recent Trend:**
-- Last 5 plans: 07-03 (5.5 min), 07-04 (2 min), 08-01 (5 min), 08-02 (6 min)
-- Trend: Phase 8 progressing - OpenGraph metadata and images complete
+- Last 5 plans: 07-04 (2 min), 08-01 (5 min), 08-02 (6 min), 08-03 (7.5 min)
+- Trend: Phase 8 nearing completion - analytics and bundle analyzer integrated
 
 ## Accumulated Context
 
@@ -129,6 +129,8 @@ Recent decisions affecting current work:
 - **Satori display:flex requirement:** All container divs in ImageResponse need explicit display: 'flex' (08-02)
 - **Brand gradient in OG images:** linear-gradient from #587C74 to #3d5752 for consistent branding (08-02)
 - **generateStaticParams in OG files:** Required for dynamicParams=false compatibility in dynamic routes (08-02)
+- **Dual analyzer scripts for Turbopack:** `npm run analyze` for Turbopack, `npm run analyze:webpack` for detailed HTML reports (08-03)
+- **Plausible ad-blocker bypass:** Analytics proxied through `/js/script.js` and `/proxy/api/event` (08-03)
 
 ### Pending Todos
 
@@ -157,12 +159,12 @@ Run `/gsd:check-todos` to view full list.
 
 **Overall project:**
 - Content migration: Need to extract case studies, service descriptions, and about content from existing Framer site
-- Analytics choice: Decide between Plausible vs Umami for Phase 7
+- ~~Analytics choice: Decide between Plausible vs Umami for Phase 7~~ Plausible integrated with ad-blocker bypass (08-03)
 
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed 08-02-PLAN.md (OpenGraph Metadata & Images)
+Stopped at: Completed 08-03-PLAN.md (Analytics & Bundle Analyzer)
 Resume file: None
 
 ---
