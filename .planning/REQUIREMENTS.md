@@ -32,14 +32,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Pages
 
-- [ ] **PAGE-01**: About page with team info, mission, and travel industry focus
+- [x] **PAGE-01**: About page with team info, mission, and travel industry focus
 - [ ] **PAGE-02**: Case Studies listing page with all case studies
 - [ ] **PAGE-03**: Case Study detail pages with before/after workflows and results
 - [ ] **PAGE-04**: Blog listing page with category filtering and card layout
 - [ ] **PAGE-05**: Blog post detail pages with MDX rendering
-- [ ] **PAGE-06**: Contact page with full-page form experience
-- [ ] **PAGE-07**: Privacy Policy page
-- [ ] **PAGE-08**: Terms of Service page
+- [x] **PAGE-06**: Contact page with full-page form experience
+- [x] **PAGE-07**: Privacy Policy page
+- [x] **PAGE-08**: Terms of Service page
 
 ### Forms & Lead Capture
 
@@ -126,14 +126,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-09 | Phase 6 | Pending |
 | HOME-10 | Phase 2 | Complete |
 | HOME-11 | Phase 3 | Complete |
-| PAGE-01 | Phase 5 | Pending |
+| PAGE-01 | Phase 5 | Complete |
 | PAGE-02 | Phase 7 | Pending |
 | PAGE-03 | Phase 7 | Pending |
 | PAGE-04 | Phase 6 | Pending |
 | PAGE-05 | Phase 6 | Pending |
-| PAGE-06 | Phase 5 | Pending |
-| PAGE-07 | Phase 5 | Pending |
-| PAGE-08 | Phase 5 | Pending |
+| PAGE-06 | Phase 5 | Complete |
+| PAGE-07 | Phase 5 | Complete |
+| PAGE-08 | Phase 5 | Complete |
 | FORM-01 | Phase 3 | Complete |
 | FORM-02 | Phase 3 | Complete |
 | FORM-03 | Phase 3 | Complete |
@@ -161,4 +161,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2025-01-29*
-*Last updated: 2026-01-30 after Phase 2 completion*
+*Last updated: 2026-01-30 after Phase 5 completion*
