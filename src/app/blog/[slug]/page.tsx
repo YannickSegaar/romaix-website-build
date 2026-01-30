@@ -29,8 +29,20 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
   }
 
   return {
-    title: `${post.title} | RomAIx Blog`,
+    title: post.title,
     description: post.description,
+    openGraph: {
+      type: 'article',
+      title: post.title,
+      description: post.description,
+      publishedTime: post.date,
+      authors: [post.author],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+    },
   };
 }
 

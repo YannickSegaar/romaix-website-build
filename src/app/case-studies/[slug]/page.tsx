@@ -38,8 +38,19 @@ export async function generateMetadata({ params }: CaseStudyPageProps) {
   }
 
   return {
-    title: `${study.title} | RomAIx Case Studies`,
+    title: study.title,
     description: study.description,
+    openGraph: {
+      type: 'article',
+      title: study.title,
+      description: study.description,
+      publishedTime: study.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: study.title,
+      description: study.description,
+    },
   };
 }
 
