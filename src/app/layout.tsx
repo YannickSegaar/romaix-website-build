@@ -3,12 +3,33 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header, Footer } from '@/components/layout'
 import { Toaster } from '@/components/ui/sonner'
+import { SITE_URL, SITE_NAME, DEFAULT_DESCRIPTION } from '@/lib/constants'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'RomAIx - AI Automation for Travel Industry',
-  description: 'Custom AI solutions for tour operators, travel agencies, and boutique hotels. Automate customer service, bookings, and workflows.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} - AI Automation for Travel Industry`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: DEFAULT_DESCRIPTION,
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
