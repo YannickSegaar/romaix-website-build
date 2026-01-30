@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2025-01-29)
 
 **Core value:** Visitors understand what RomAIx does and take action (book a demo or request a free assessment) within 30 seconds of landing.
-**Current focus:** Phase 6 Complete - Ready for Phase 7
+**Current focus:** Phase 7 - Case Studies Detail Pages
 
 ## Current Position
 
-Phase: 6 of 8 (Blog Implementation) - COMPLETE
-Plan: 4 of 4 in current phase - COMPLETE
-Status: Phase 6 complete
-Last activity: 2026-01-30 - Completed 06-04-PLAN.md (Sample Blog Content)
+Phase: 7 of 8 (Case Studies Detail Pages)
+Plan: 2 of 4 in current phase
+Status: In progress
+Last activity: 2026-01-30 - Completed 07-02-PLAN.md (Sample Case Study Content)
 
-Progress: [████████████] 100% (24 of 24 total plans estimated)
+Progress: [██████████████████████████░░] 93% (26 of 28 total plans estimated)
 
 ## Performance Metrics
 
@@ -33,10 +33,11 @@ Progress: [████████████] 100% (24 of 24 total plans esti
 | 04-animated-feature-cards | 4 | 6.2 min | 1.55 min |
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
 | 06-blog-implementation | 4 | 18.3 min | 4.58 min |
+| 07-case-studies-detail-pages | 2 | 7.5 min | 3.75 min |
 
 **Recent Trend:**
-- Last 5 plans: 06-01 (3 min), 06-02 (3.3 min), 06-03 (4 min), 06-04 (8 min)
-- Trend: Phase 6 blog implementation complete with full verification
+- Last 5 plans: 06-03 (4 min), 06-04 (8 min), 07-01 (3.5 min), 07-02 (4 min)
+- Trend: Phase 7 case studies in progress
 
 ## Accumulated Context
 
@@ -110,6 +111,11 @@ Recent decisions affecting current work:
 - **Graceful BlogPreview empty state:** Section returns null when no posts exist, automatically appears when posts are added (06-03)
 - **SVG format for blog placeholders:** Lightweight, scales perfectly, no external assets needed (06-04)
 - **Travel industry blog content focus:** Posts address tour operator pain points (AI agents, ROI, WhatsApp) (06-04)
+- **Case study schema with Zod validation:** Nested testimonial and results array schemas for rich metadata (07-01)
+- **Case study content mirroring blog pattern:** Same gray-matter + next-mdx-remote approach from Phase 6 (07-01)
+- **Consistent case study slug naming:** Slugs match MDX filenames (adventure-tours not adventure-tours-response-automation) (07-02)
+- **Challenge/Solution/Impact narrative structure:** All case studies follow same 3-section story pattern (07-02)
+- **Before/after SVG workflow diagrams:** Gray dashed for manual process, brand color solid for automated (07-02)
 
 ### Pending Todos
 
@@ -136,7 +142,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed 06-04-PLAN.md (Sample Blog Content) - Phase 6 complete
+Stopped at: Completed 07-02-PLAN.md (Sample Case Study Content)
 Resume file: None
 
 ---
