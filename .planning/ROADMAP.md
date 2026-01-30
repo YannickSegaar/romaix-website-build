@@ -125,11 +125,13 @@ Plans:
   3. Visitor can filter blog posts by category (AI Automation, Travel Industry, Case Studies, etc.)
   4. Visitor can click any blog post to read full content with formatted text, images, and code blocks
   5. Blog pages load from server-rendered content (visible in "View Page Source")
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md — MDX infrastructure setup (packages, next.config, mdx-components, blog utilities)
+- [ ] 06-02-PLAN.md — Blog components and listing page (BlogCard, BlogGrid, CategoryFilter, /blog)
+- [ ] 06-03-PLAN.md — Blog post detail page and homepage integration ([slug] route, BlogPreview)
+- [ ] 06-04-PLAN.md — Seed blog content and verification (3 sample posts, human verification)
 
 ### Phase 7: Case Studies Detail Pages
 **Goal**: Enable deep-dive exploration of client success stories with workflows and quantified results
@@ -179,7 +181,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 3. Lead Capture & Forms | 5/5 | Complete | 2026-01-29 |
 | 4. Animated Feature Cards | 4/4 | Complete | 2026-01-29 |
 | 5. Content Pages | 3/3 | Complete | 2026-01-30 |
-| 6. Blog Implementation | 0/TBD | Not started | - |
+| 6. Blog Implementation | 0/4 | Not started | - |
 | 7. Case Studies Detail Pages | 0/TBD | Not started | - |
 | 8. SEO & Performance + Deployment | 0/TBD | Not started | - |
 
