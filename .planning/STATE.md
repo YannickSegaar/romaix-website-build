@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2025-01-29)
 ## Current Position
 
 Phase: 6 of 8 (Blog Implementation)
-Plan: 1 of 4 in current phase
+Plan: 2 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-30 - Completed 06-01-PLAN.md (MDX Infrastructure)
+Last activity: 2026-01-30 - Completed 06-02-PLAN.md (Blog Components & Listing)
 
-Progress: [██████████░░] 91% (21 of 23 total plans estimated)
+Progress: [██████████░░] 96% (22 of 23 total plans estimated)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 21
-- Average duration: 1.93 min
-- Total execution time: 0.68 hours
+- Total plans completed: 22
+- Average duration: 1.99 min
+- Total execution time: 0.73 hours
 
 **By Phase:**
 
@@ -32,11 +32,11 @@ Progress: [██████████░░] 91% (21 of 23 total plans estim
 | 03-lead-capture-forms | 5 | 12.5 min | 2.5 min |
 | 04-animated-feature-cards | 4 | 6.2 min | 1.55 min |
 | 05-content-pages | 3 | 5.5 min | 1.83 min |
-| 06-blog-implementation | 1 | 3 min | 3.0 min |
+| 06-blog-implementation | 2 | 6.3 min | 3.15 min |
 
 **Recent Trend:**
-- Last 5 plans: 05-02 (1 min), 05-01 (2 min), 05-03 (2.5 min), 06-01 (3 min)
-- Trend: Phase 6 started - MDX infrastructure established
+- Last 5 plans: 05-01 (2 min), 05-03 (2.5 min), 06-01 (3 min), 06-02 (3.3 min)
+- Trend: Phase 6 in progress - blog UI complete
 
 ## Accumulated Context
 
@@ -103,6 +103,9 @@ Recent decisions affecting current work:
 - **Simplified MDX plugin configuration:** Removed rehype-pretty-code due to serialization errors in Next.js 16 Turbopack (06-01)
 - **Graceful content directory handling:** Blog utilities return empty array if posts directory doesn't exist yet (06-01)
 - **MDX components pattern:** useMDXComponents in mdx-components.tsx at project root with prose classes (06-01)
+- **Explicit props for BlogCard:** Individual props (slug, title, etc.) instead of single post object for better TypeScript safety (06-02)
+- **URL-based category filtering:** searchParams for server-rendered filtering, CategoryFilter client component for navigation (06-02)
+- **Staggered grid animations:** delay={index * 0.1} pattern for smooth entrance effects on blog cards (06-02)
 
 ### Pending Todos
 
@@ -125,7 +128,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-30
-Stopped at: Completed 06-01-PLAN.md (MDX Infrastructure)
+Stopped at: Completed 06-02-PLAN.md (Blog Components & Listing)
 Resume file: None
 
 ---
