@@ -165,11 +165,13 @@ Plans:
   6. First Load JS bundle is under 100KB for all marketing pages
   7. Analytics dashboard shows visitor traffic and page views (Plausible or Umami)
   8. Search engines can crawl all content (verified via Google Search Console)
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [ ] 08-01-PLAN.md — SEO foundation (metadataBase, sitemap.ts, robots.ts, static page metadata)
+- [ ] 08-02-PLAN.md — Dynamic content SEO and OpenGraph image generation
+- [ ] 08-03-PLAN.md — Plausible analytics integration and bundle analyzer setup
+- [ ] 08-04-PLAN.md — Vercel deployment and production verification
 
 ## Progress
 
@@ -185,8 +187,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 5. Content Pages | 3/3 | Complete | 2026-01-30 |
 | 6. Blog Implementation | 4/4 | Complete | 2026-01-30 |
 | 7. Case Studies Detail Pages | 4/4 | Complete | 2026-01-30 |
-| 8. SEO & Performance + Deployment | 0/TBD | Not started | - |
+| 8. SEO & Performance + Deployment | 0/4 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-29*
-*Last updated: 2026-01-30 (Phase 7 complete)*
+*Last updated: 2026-01-30 (Phase 8 planned)*
