@@ -121,7 +121,14 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
-None yet.
+9 todos captured (2026-01-30):
+- **ui:** Interactive ROI Calculator / Free Scan Form, Add More Animations
+- **integration:** Embed Calendly, Integrate Google Analytics
+- **design:** Enhanced Background Design, Mood Board / Inspiration Assets
+- **content:** Workflow Visualization Flowcharts, Explainer Animation/Video
+- **i18n:** Multilingual Support
+
+Run `/gsd:check-todos` to view full list.
 
 ### Blockers/Concerns
 
