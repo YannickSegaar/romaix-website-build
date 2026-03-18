@@ -1,0 +1,5 @@
+export { FloatingCards } from './floating-cards'
+export { InteractiveTabs } from './interactive-tabs'
+export { HorizontalCarousel } from './horizontal-carousel'
+export { BentoGrid } from './bento-grid'
+export { services } from './service-data'

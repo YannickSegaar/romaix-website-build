@@ -37,6 +37,12 @@ yarn-error.log*
 .env.production.local
 # Note: .env.production is committed - it documents required variables (no secrets)
 
+# editor/agent configs
+.cursor/
+.opencode/
+.agents/
+.claude/
+
 # vercel
 .vercel
 
