@@ -1,7 +1,9 @@
-import { getAllPosts, getAllCategories } from '@/lib/blog';
+import { getAllPosts } from '@/lib/ghost';
 import { BlogGrid, CategoryFilter } from '@/components/blog';
 import { FadeIn } from '@/components/motion';
 import type { Metadata } from 'next';
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -17,15 +19,29 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams;
   const selectedCategory = params.category;
 
-  const allPosts = getAllPosts();
-  const categories = getAllCategories();
+  const ghostPosts = await getAllPosts();
 
-  // Filter posts by category if provided
+  // Map GhostPost → shape expected by BlogCard / BlogGrid
+  const allPosts = ghostPosts.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    description: p.excerpt ?? '',
+    date: p.published_at,
+    category: p.primary_tag?.name ?? 'General',
+    readTime: p.reading_time || 1,
+    image: p.feature_image ?? '/blog-placeholder.jpg',
+    // Keep extra fields for compat
+    content: '',
+    author: p.authors?.[0]?.name ?? 'RomAIx Team',
+    tags: p.tags?.map((t) => t.name) ?? [],
+  }));
+
+  const categories = [...new Set(allPosts.map((p) => p.category))].sort();
+
   const filteredPosts = selectedCategory
     ? allPosts.filter((post) => post.category === selectedCategory)
     : allPosts;
 
-  // Format page title
   const pageTitle = selectedCategory ? `Blog: ${selectedCategory}` : 'Blog';
   const pageSubtitle = selectedCategory
     ? `${filteredPosts.length} ${filteredPosts.length === 1 ? 'post' : 'posts'} in ${selectedCategory}`
@@ -45,7 +61,9 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         selectedCategory={selectedCategory}
       />
 
-      <BlogGrid posts={filteredPosts} />
+      {/* BlogGrid accepts any array with BlogPost-compatible shape */}
+      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+      <BlogGrid posts={filteredPosts as any} />
 
       {filteredPosts.length === 0 && selectedCategory && (
         <div className="py-12 text-center">

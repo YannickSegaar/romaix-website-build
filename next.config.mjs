@@ -1,5 +1,4 @@
 import createMDX from '@next/mdx';
-import { withPlausibleProxy } from 'next-plausible';
 
 const withBundleAnalyzer = (await import('@next/bundle-analyzer')).default({
   enabled: process.env.ANALYZE === 'true',
@@ -15,4 +14,4 @@ const withMDX = createMDX({
   // Add markdown plugins here, as desired
 });
 
-export default withBundleAnalyzer(withPlausibleProxy()(withMDX(nextConfig)));
+export default withBundleAnalyzer(withMDX(nextConfig));

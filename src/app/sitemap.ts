@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next';
-import { getAllPosts } from '@/lib/blog';
+import { getAllPosts } from '@/lib/ghost';
 import { getAllCaseStudies } from '@/lib/case-studies';
 import { SITE_URL } from '@/lib/constants';
+
+export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static pages
@@ -56,21 +58,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  // Dynamic blog posts
-  const posts = getAllPosts();
-  const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }));
+  // Dynamic blog posts — from Ghost
+  let blogPages: MetadataRoute.Sitemap = [];
+  try {
+    const posts = await getAllPosts();
+    blogPages = posts.map((post) => ({
+      url: `${SITE_URL}/blog/${post.slug}`,
+      lastModified: new Date(post.published_at),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }));
+  } catch (err) {
+    console.error('sitemap: Ghost API error', err);
+  }
 
-  // Dynamic case studies
+  // Dynamic case studies — from MDX (unchanged)
   const caseStudies = getAllCaseStudies();
   const caseStudyPages: MetadataRoute.Sitemap = caseStudies.map((study) => ({
     url: `${SITE_URL}/case-studies/${study.slug}`,
     lastModified: new Date(study.date),
-    changeFrequency: 'monthly',
+    changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
