@@ -10,7 +10,7 @@ import {
   HorizontalCarousel,
   BentoGrid,
 } from '@/components/services'
-import { SocialProof } from '@/components/sections'
+import { SocialProof } from '@/components/sections/social-proof'
 import { WorkflowSection } from '@/components/sections/workflow-section'
 import { IPhoneChatMockup } from '@/components/mockups/iphone-chat-mockup'
 import { GlassMorphCard } from './glass-morph-card'
